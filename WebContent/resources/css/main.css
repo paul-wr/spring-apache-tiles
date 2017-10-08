@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+form {
+	width: 300px;
+	background: #eee;
+	border: 1px solid #00aced;
+}
+
+.formtable {
+	padding: 10px;
+	border: 1px solid #555;
+	width: 100%;
+}
+
+input[type="text"], textarea, input[type="password"] {
+	width: 100%;
+}
+
+input[type="submit"] {
+	background: #00aced;
+	color: #fff;
+	padding: 7px;
+}
+
+.error {
+	font-size: medium!important;
+	color: red!important;
+	padding: 5px;
+	margin: 5px;
+}
+
+.valid {
+	font-size: medium!important;
+	color: green!important;
+	padding: 5px;
+	margin: 5px;
+
+p.error{
+	color: red;
+	font-size: 14px;
+	padding: 12px;
+	border: 2px solid red;
+}
+
